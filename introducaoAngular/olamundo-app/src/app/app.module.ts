@@ -8,13 +8,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatIconModule} from "@angular/material/icon";
 import {MatButtonModule} from "@angular/material/button";
-
+import { AsideComponent } from './aside/aside.component';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopoComponent,
-    RodapeComponent
+    RodapeComponent,
+    AsideComponent
 
   ],
   imports: [
@@ -24,9 +26,10 @@ import {MatButtonModule} from "@angular/material/button";
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
+    MatCardModule
 
   ],
   providers: [],
-  bootstrap: [AppComponent, TopoComponent, RodapeComponent]
+  bootstrap: [AppComponent, TopoComponent, RodapeComponent, AsideComponent]
 })
 export class AppModule { }

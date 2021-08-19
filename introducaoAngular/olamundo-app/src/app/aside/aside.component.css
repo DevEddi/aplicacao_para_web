@@ -4,10 +4,31 @@
 }
 .example-card {
   max-width: 400px;
+  background-color: #1C285D;
 }
-
+mat-card-subtitle{
+  color: rgba(232, 232, 5, 0.97);
+}
+img{
+  height: 300px;
+}
 .example-header-image {
   background-image: url('src/images/icon_professorVictor.jpg');
   background-size: cover;
 }
+.example-header-image-2 {
+  background-image: url('https://media-exp1.licdn.com/dms/image/C5603AQExY_Yk-oK1UQ/profile-displayphoto-shrink_200_200/0/1516889759530?e=1634774400&v=beta&t=_8pJ_paaoMrf9wMR2TiiXwWMOHnf0gfz6LvDK7TNfuU');
+  background-size: cover;
+}
+.example-header-image-3 {
+  background-image: url('https://media-exp1.licdn.com/dms/image/C4E03AQGcAWb3Z-gvCA/profile-displayphoto-shrink_200_200/0/1594320267202?e=1634774400&v=beta&t=BTBzEiV6xmqF_gmCm5-Dmm1KuH_rUVcBXaHDdT_zJJE');
+  background-size: cover;
+}
+
+.card-flex{
+  display: flex;
+  justify-content: center;
+}
+
+
 

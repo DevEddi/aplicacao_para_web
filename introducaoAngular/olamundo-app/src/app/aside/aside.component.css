@@ -34,4 +34,7 @@ img{
 }
 
 
-
+button{
+  background-color: rgba(219, 219, 13, 0.85);
+  color: black;
+}

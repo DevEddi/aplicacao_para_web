@@ -15,7 +15,7 @@ img{
   height: 300px;
 }
 .example-header-image {
-  background-image: url('src/images/icon_professorVictor.jpg');
+  background-image: url('../../assets/images/icon_professorVictor.jpg');
   background-size: cover;
 }
 .example-header-image-2 {

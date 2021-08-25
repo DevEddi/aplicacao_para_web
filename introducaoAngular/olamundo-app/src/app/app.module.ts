@@ -10,13 +10,15 @@ import {MatIconModule} from "@angular/material/icon";
 import {MatButtonModule} from "@angular/material/button";
 import { AsideComponent } from './aside/aside.component';
 import {MatCardModule} from '@angular/material/card';
+import { PrincipalComponent } from './principal/principal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopoComponent,
     RodapeComponent,
-    AsideComponent
+    AsideComponent,
+    PrincipalComponent
 
   ],
   imports: [

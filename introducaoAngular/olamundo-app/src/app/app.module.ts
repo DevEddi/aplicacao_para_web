@@ -11,6 +11,7 @@ import {MatButtonModule} from "@angular/material/button";
 import { AsideComponent } from './aside/aside.component';
 import {MatCardModule} from '@angular/material/card';
 import { PrincipalComponent } from './principal/principal.component';
+import { ContatosComponent } from './contatos/contatos.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PrincipalComponent } from './principal/principal.component';
     TopoComponent,
     RodapeComponent,
     AsideComponent,
-    PrincipalComponent
+    PrincipalComponent,
+    ContatosComponent
 
   ],
   imports: [

@@ -15,6 +15,9 @@ export class ProperityBindingComponent implements OnInit {
 
   ngOnInit(): void {
     setInterval(()=>{
+      this.marcado = !this.marcado;
+    }, 1000);
+    setInterval(()=>{
       if(this.classe_titulo == 'titulo_vermelho'){
         this.classe_titulo = 'titulo_azul';
       }else{

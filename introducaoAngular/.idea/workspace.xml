@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4075e2fb-1f1a-413f-b741-5ed371713126" name="Default Changelist" comment="" />
+    <list default="true" id="4075e2fb-1f1a-413f-b741-5ed371713126" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/olamundo-app/src/app/.env" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +35,7 @@
       <option name="presentableId" value="Default" />
       <updated>1629246175037</updated>
       <workItem from="1629246176367" duration="35000" />
+      <workItem from="1632146615856" duration="22000" />
     </task>
     <servers />
   </component>

@@ -12,6 +12,7 @@ import { AsideComponent } from './aside/aside.component';
 import {MatCardModule} from '@angular/material/card';
 import { PrincipalComponent } from './principal/principal.component';
 import { ContatosComponent } from './contatos/contatos.component';
+import { InterpolacaoComponent } from './interpolacao/interpolacao.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ContatosComponent } from './contatos/contatos.component';
     RodapeComponent,
     AsideComponent,
     PrincipalComponent,
-    ContatosComponent
+    ContatosComponent,
+    InterpolacaoComponent
 
   ],
   imports: [

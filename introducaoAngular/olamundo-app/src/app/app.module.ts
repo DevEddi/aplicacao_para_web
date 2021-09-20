@@ -13,6 +13,7 @@ import {MatCardModule} from '@angular/material/card';
 import { PrincipalComponent } from './principal/principal.component';
 import { ContatosComponent } from './contatos/contatos.component';
 import { InterpolacaoComponent } from './interpolacao/interpolacao.component';
+import { ProperityBindingComponent } from './properity-binding/properity-binding.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { InterpolacaoComponent } from './interpolacao/interpolacao.component';
     AsideComponent,
     PrincipalComponent,
     ContatosComponent,
-    InterpolacaoComponent
+    InterpolacaoComponent,
+    ProperityBindingComponent
 
   ],
   imports: [
